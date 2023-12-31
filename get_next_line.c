@@ -12,9 +12,9 @@
 
 #include "get_next_line.h"
 
-static char	*ft_read(char *str_line, int fd)
+static char	*ft_read(char *str_line, int fd)     
 {
-	ssize_t	a;
+	ssize_t	a;   
 	char	*buffer;
 
 	a = 1;
